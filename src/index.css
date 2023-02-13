@@ -1,0 +1,81 @@
+/* normalization */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: .3s all;
+}
+
+hr{
+  margin: 10px ;
+}
+
+/* Start Contianer Style */
+.container{
+  max-width: 1400px;
+  margin: auto;
+  padding: 10px;
+}
+/* End Contianer Style */
+
+
+
+@media(max-width:992px){
+  .breadcrumb-navigation,
+  .sponsored{
+      display: none !important;
+  }
+  html,body{
+      overflow-x: hidden;
+  }
+  header >.top:nth-of-type(1){
+      display: none;
+  }
+  header >.top:nth-of-type(2){
+      display: block;
+  }
+.product-detials .detials{
+ flex-direction: column;
+ align-items: center;
+}
+.product-detials .detials .left .sticky{
+  position: static;
+}
+.product-detials .detials .left .sticky .picture img{
+  width: 100%;
+}
+.carousel .items{
+  overflow-x: auto;
+  padding: 0;
+}
+.carousel .items .product{
+  width: 200px;
+  flex-shrink: 0;
+}
+.carousel .buttons{
+  display: none;
+}
+.videos .content .carousel .items .video{
+  width: 300px;
+  flex-shrink: 0;
+}
+}
+
+@media (max-width:500px) {
+  .container{
+      padding: 10px;
+  }
+  .info-product .flex{
+      flex-direction: column;
+  }
+  .same-category-brands .items{
+      flex-direction: column;
+  }
+  .same-category-brands .items div{
+      width: auto !important;
+  }
+
+  .videos .content{
+      padding: 5px 10px;
+  }
+}
