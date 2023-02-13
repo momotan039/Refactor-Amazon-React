@@ -1,0 +1,281 @@
+
+.product-detials .breadcrumb-navigation{
+    display: flex;
+    color: #232f3e;
+    margin-bottom: 30px;
+}
+.product-detials .breadcrumb-navigation a{
+    color: #232f3e;
+    text-decoration: none;
+    font-size: 13px;
+}
+.product-detials .breadcrumb-navigation a:hover{
+    text-decoration: underline;
+}
+.product-detials .breadcrumb-navigation span{
+    margin: 0 5px;
+    font-size: 10px;
+    padding-top: 2px;
+}
+.product-detials .detials{
+    display: flex;
+    gap: 30px;
+    position: relative;
+}
+.product-detials .detials > div{
+    flex: 2;
+}
+
+
+section a{
+    color: #007185;
+    text-decoration: none;
+}
+section a:hover{
+    text-decoration: underline;
+    color: #f08804;
+}
+.product-detials .detials .left{
+    position: relative;
+}
+.product-detials .detials .left .sticky{
+position: sticky;
+display: flex;
+top: 0;
+left: 0;
+}
+.product-detials .detials .left .sticky .picture{
+    position: relative;
+}
+.product-detials .detials .left .sticky .picture::after{
+    content: "";
+    height: 30px;
+    width: 30px;
+    background: url(https://m.media-amazon.com/images/G/01/share-icons/share-std.svg) no-repeat 3px 2px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0px 0px 3px;
+    border-radius: 50%;
+}
+.product-detials .detials .left .sticky .picture img{
+  height: 500px;
+  width: 500px;
+}
+
+.product-detials .detials .left .sticky .picture .hint{
+    text-align: center;
+    color: #232f3e;
+}
+.product-detials .detials .left .sticky .pictures{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.product-detials .detials .left .sticky .pictures img{
+    border: solid 1px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+.product-detials .detials .left .sticky .pictures img:hover{
+    border-color: #f08804;
+    box-shadow: 0 0 4px #f08804;
+}
+
+.product-detials .detials .scale-image{
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 80%;
+    right: 0;
+    display: none;
+    top: 0px;
+    z-index: 999;
+    background-image: url(https://m.media-amazon.com/images/I/51WgxanZvDL._AC_Sy550_.jpg);    
+}
+.product-detials .detials .center .brand{
+    text-decoration: none;
+    font-size: 14px;
+}
+.product-detials .detials .center .rating{
+    display: flex;
+}
+.product-detials .detials .center .rating a{
+    margin-left: 20px;
+}
+
+.stars{
+    display: flex;
+}
+.stars img{
+    width: 18px;
+}
+.product-detials .detials .center .price{
+    display: flex;
+}
+.product-detials .detials .center .price .discount{
+    font-size: 25px;
+    color: #f05d0d;
+    margin-right: 10px;
+}
+.product-detials .detials  .real-price .currency,
+.product-detials .detials  .real-price .sub-number{
+    font-size: 15px;
+    height: 20px;
+    vertical-align: top;
+}
+.product-detials .detials   .real-price .number{
+    font-weight: bold;
+    font-size: 25px;
+}
+.product-detials .detials .center  .list-price{
+    font-size: 12px;
+    color: rgb(148, 144, 144);
+}
+.product-detials .detials .center  .list-price span{
+    text-decoration: line-through;
+    margin-right: 2px;
+}
+.product-detials .detials .center  .list-price i{
+    cursor: pointer;
+}
+.product-detials .detials .center  .list-price i:hover{
+    color: #232f3e;
+ }
+.product-detials .detials .center  .list-price i:hover .pop-up{
+display: inherit;
+}
+.product-detials .detials .center  .list-price i .pop-up{
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 200px;
+    top: -3%;
+    left: 40%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px 2px;
+    background-color: white;
+    padding: 20px;
+}
+.product-detials .detials .center  .list-price i .pop-up{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.product-detials .detials  .fees {
+    color: rgb(148, 144, 144);
+    margin: 5px 0;
+}
+.product-detials .detials .center .coupon span {
+background-color: #f08804;
+padding: 1px 5px;
+border-radius: 2px;
+margin-right: 20px;
+}
+.product-detials .detials .center .terms{
+    cursor: pointer;
+}
+.product-detials .detials .center .terms span{
+color: #007185;
+}
+.product-detials .detials .center table{
+    text-align: left;
+}
+.product-detials .detials .center .about ul{
+padding: 10px 20px;
+}
+.product-detials .detials .right {
+    flex: 1;
+}
+.product-detials .detials .right .data{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.delivery div span,
+.status{
+    color: green;
+}
+.product-detials .detials .right .data{
+    box-shadow: 0px 0px 3px;
+    border-radius: 8px;
+}
+.delivery >div{
+    margin-bottom: 10px;
+}
+.status {
+    font-size: 20px;
+}
+.qty{
+width: 70px;
+border-radius: 10px;
+padding: 3px;
+cursor: pointer;
+}
+.btn{
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.btn:focus{
+    background-color: red;
+}
+.btn.yellow{
+    background-color: #FFD814
+}
+.btn.yellow:hover{
+background-color: #F7CA00;
+}
+.btn.orange{
+    background-color: #FFA41C;
+}
+.btn.orange:hover{
+    background-color: #f05d0d;
+}
+.secure i{
+    margin-right: 10px;
+    color: #999999
+    
+}
+.ships,
+.sold{
+    display: flex;
+    width: 180px;
+    justify-content: space-between;
+}
+.add-to-list{
+    padding: 10px;
+    text-align: start;
+    cursor: pointer;
+    border: 0;
+    box-shadow: 0 0 3px;
+}
+.product-detials .detials .right .sell-on-amazon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    gap: 5px;
+}
+
+ button{
+    padding: 10px;
+    border: 0;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 3px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #F7FAFA;
+}
+
+
+section h3.title{
+    color: #CC6600;
+    font-size: 20px;
+    margin: 20px 0;
+}
