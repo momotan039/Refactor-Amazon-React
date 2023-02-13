@@ -1,0 +1,34 @@
+.buy-it-with .title{
+    margin-bottom: 10px;
+}
+.buy-it-with .products{
+    display: flex;
+    justify-content: space-between;
+}
+.buy-it-with .products img{
+    width: 150px;
+}
+.buy-it-with .products .items{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.buy-it-with .products .items .plus{
+    font-size: 30px;
+    font-weight: bold;
+}
+  span.price{
+    color:#CC6504;
+}
+.buy-it-with .products .items .price .btn{
+    display: block;
+    padding: 8px;
+    margin-top: 5px;
+}
+.buy-it-with p{
+    display: inline-block;
+}
+.buy-it-with .info i{
+    color: #007185;
+    font-size: 18px;
+}
