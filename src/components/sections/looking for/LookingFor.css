@@ -1,0 +1,27 @@
+.looking-for .input-contianer {
+    width: 80%;
+    position: relative;
+    margin-top: 20px;
+}
+.looking-for .input-contianer input
+{
+    width: 100%;
+    padding: 7px 30px;
+}
+.looking-for .input-contianer i{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    padding: 7px 7px;
+    font-size: 17px;
+}
+.looking-for .text{
+    padding: 30px;
+}
+.looking-for .text ul{
+    padding: 10px 20px;
+    list-style-type: "-  ";
+}
+.looking-for .text ul li{
+    margin-bottom: 5px;
+}
