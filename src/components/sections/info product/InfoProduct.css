@@ -1,0 +1,28 @@
+.info-product .flex{
+    display: flex;
+    gap: 30px;
+}
+.info-product table{
+    border-collapse: collapse;
+}
+.info-product table td{
+    border: 1px solid #E7E7E7;
+    border-right: 0;
+}
+.info-product table tr td{
+    padding: 13px;
+    font-size: 13px;
+}
+.info-product table tr td:first-of-type{
+    background-color: #F3F3F3;
+}
+.info-product table tr td .rating .num{
+    margin-left: 20px;
+}
+.info-product .warranty  .sup-title{
+    font-size: 22px;
+}
+.info-product .warranty  .sup-title:nth-of-type(2){
+display: block;
+margin: 20px 0;
+}
