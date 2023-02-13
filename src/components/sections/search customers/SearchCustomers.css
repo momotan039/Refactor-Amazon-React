@@ -1,0 +1,9 @@
+.search-customers .product{
+    box-shadow: 0px 4px 3px 0px grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.search-customers .product a:nth-of-type(2){
+    border-top: 2px solid #f9f9f9;
+}
